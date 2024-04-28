@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            
+            html {
+                background: radial-gradient(circle, DarkGrey 50%, DarkGreen 50%, LightGrey);
+                background-size: 8px 8px;
+            }
+            .flex-container {
+                display: flex;
+            }
+            .blue-text {
+                color: blue;
+            }
+            .center-format {
+                margin: auto;
+                padding: 8px;
+                min-width: 200px;
+                max-width: fit-content;
+            }
+            .better-box {
+                background-color: lightgray;
+                border: 2px solid black; 
+                border-radius: 16px;
+            }
+            .paragraph-by-autospace {
+                white-space: pre-line;
+            }
+            .invisable-padded-box {
+                margin: 8px;
+                padding: 8px;
+            }
+            .no-automargin {
+                margin: 8px !important;
+            }
+            p {
+                font-size: 5mm;
+                font-family: sans-serif;
+            }
+            .good-size {
+                max-width: 707.781px !important;
+                max-height: 217.781px !important;
+                min-height: min-content !important;
+                min-width: min-content !important;
+            } 
+            .bigger-good-title {
+                font-size: 6mm !important;
+            }
+            .TILT-blue-border-pink-bg {
+                border: 3px solid blue !important;
+                border-radius: 16px !important;
+                padding: 3px;
+                background-color: lightblue;
+                color: black !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="good-size better-box center-format">
+            <div class="center-format">
+                <div class="TILT-blue-border-pink-bg">
+                    <h1 class="center-format">T.I.L.T. Organization</h1>
+                </div>
+                <div class="flex-container">
+                    <h4 class="paragraph-by-autospace invisable-padded-box">
+                        Technology and Innovation in 
+                        Third-World Countries-helping educate 
+                        the world Step-By-Step</h4>
+                    <img src="images/TILT_logo.png" height="100px" width="100px" class="invisable-padded-box">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="better-box center-format">
+            <h3 class="blue-text center-format bigger-good-title">What is T.I.L.T ?</h3>
+            <div class="flex-container center-format no-automargin"> <!--flex-->
+                <div>
+                    <p class="paragraph-by-autospace">Our goal as an organization is to ensure that every household child is
+                    properly funded the proper technology needed for their learning life.
+                     <b>We believe technology is the key to our lives and education</b>, and all children
+                      <b>no matter their financial situation</b> should be properly provided with technology.
+                       We hope to effectively <b>improve technology accessibility all over the world</b>.
+                    </p>
+                </div>
+            </div> <!-- end of flex -->
+        </div>
+    </body>
+</html>

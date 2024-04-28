@@ -1,0 +1,27 @@
+[project]
+name = "TILT website"
+authors = [
+  { name="@malachi196", email="malachiaaronwilson@gmail.com" },
+]
+description = "TILT website for TILT organization"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language 1 :: Python :: 3",
+    "Programming Language 2 :: HTML :: 5",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = ""
+[tool.poetry]
+name = "TILT website"
+description = "TILT website for TILT organization"
+authors = ["malachi196", "Aden Paul"]
+license = "MIT"
+readme="README.md"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

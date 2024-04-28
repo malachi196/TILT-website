@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+}
+.blue-text {
+    color: blue;
+}
+.center-format {
+    margin: auto;
+    padding: 8px;
+    min-width: 200px;
+    max-width: fit-content;
+}
