@@ -1,3 +1,3 @@
 # tilt project
 
-Website for TILT organiation/project
+Website for TILT organization/project
