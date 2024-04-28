@@ -2,63 +2,10 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <style>
-            
-            html {
-                background: radial-gradient(circle, DarkGrey 50%, DarkGreen 50%, LightGrey);
-                background-size: 8px 8px;
-            }
-            .flex-container {
-                display: flex;
-            }
-            .blue-text {
-                color: blue;
-            }
-            .center-format {
-                margin: auto;
-                padding: 8px;
-                min-width: 200px;
-                max-width: fit-content;
-            }
-            .better-box {
-                background-color: lightgray;
-                border: 2px solid black; 
-                border-radius: 16px;
-            }
-            .paragraph-by-autospace {
-                white-space: pre-line;
-            }
-            .invisable-padded-box {
-                margin: 8px;
-                padding: 8px;
-            }
-            .no-automargin {
-                margin: 8px !important;
-            }
-            p {
-                font-size: 5mm;
-                font-family: sans-serif;
-            }
-            .good-size {
-                max-width: 707.781px !important;
-                max-height: 217.781px !important;
-                min-height: min-content !important;
-                min-width: min-content !important;
-            } 
-            .bigger-good-title {
-                font-size: 6mm !important;
-            }
-            .TILT-blue-border-pink-bg {
-                border: 3px solid blue !important;
-                border-radius: 16px !important;
-                padding: 3px;
-                background-color: lightblue;
-                color: black !important;
-            }
-        </style>
+        <link type="text/css" rel="stylesheet" href="static/styles/betterstyle.css">
     </head>
     <body>
-        <div class="good-size better-box center-format">
+        <div class="good-size better-box center-format"> <!-- 1st box -->
             <div class="center-format">
                 <div class="TILT-blue-border-pink-bg">
                     <h1 class="center-format">T.I.L.T. Organization</h1>
@@ -73,7 +20,7 @@
             </div>
         </div>
         <br>
-        <div class="better-box center-format">
+        <div class="better-box center-format"> <!-- 2nd box -->
             <h3 class="blue-text center-format bigger-good-title">What is T.I.L.T ?</h3>
             <div class="flex-container center-format no-automargin"> <!--flex-->
                 <div>
@@ -85,6 +32,19 @@
                     </p>
                 </div>
             </div> <!-- end of flex -->
+        </div>
+        <br>
+        <div class="better-box center-format"> <!-- 3rd box -->
+            <h3 class="center-format blue-text bigger-good-title">Our presentation!</h3>
+            <div class="flex-container center-format no-automargin">
+                <img src="images/qr/TILTpresentation.png" height="200px" width="200px" class="invisable-padded-box">
+                <div>
+                    <p class="paragraph-by-autospace">You can scan this QR code to view our
+                        presentation, or <a href="https://malachi196.github.io/TILT-website/templates/index.html">click here</a>!
+                    </p>
+                </div>
+
+            </div>
         </div>
     </body>
 </html>

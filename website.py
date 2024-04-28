@@ -15,11 +15,6 @@ hometemp = environment.get_template("home.html")
 
 context={
     "name":"",
-    #"tiltlogowhitebackground":r"E:programming projects/TILT/images/TILT_logo.png",
-    #"stylesheet": url_get("templates/static/styles/betterstyle.css"),
-    #"scriptfile": url_for("templates/static/scripts/betterscript.js"),
-    #"home": url_for("templates/home.html"),
-    #"index": url_for("templates/index.html")
 }
 
 @app.route(r"/", methods=["GET", "POST"])

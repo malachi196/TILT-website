@@ -1,3 +1,7 @@
+html {
+    background: radial-gradient(circle, DarkGrey 50%, DarkGreen 50%, LightGrey);
+    background-size: 8px 8px;
+}
 .flex-container {
     display: flex;
 }
@@ -9,4 +13,39 @@
     padding: 8px;
     min-width: 200px;
     max-width: fit-content;
+}
+.better-box {
+    background-color: lightgray;
+    border: 2px solid black; 
+    border-radius: 16px;
+}
+.paragraph-by-autospace {
+    white-space: pre-line;
+}
+.invisable-padded-box {
+    margin: 8px;
+    padding: 8px;
+}
+.no-automargin {
+    margin: 8px !important;
+}
+p {
+    font-size: 5mm;
+    font-family: sans-serif;
+}
+.good-size {
+    max-width: 707.781px !important;
+    max-height: 217.781px !important;
+    min-height: min-content !important;
+    min-width: min-content !important;
+} 
+.bigger-good-title {
+    font-size: 6mm !important;
+}
+.TILT-blue-border-pink-bg {
+    border: 3px solid blue !important;
+    border-radius: 16px !important;
+    padding: 3px;
+    background-color: lightblue;
+    color: black !important;
 }
