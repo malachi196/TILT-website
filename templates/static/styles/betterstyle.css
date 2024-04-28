@@ -52,3 +52,6 @@ p {
 .any-height {
     max-height: fit-content !important;
 }
+.smallmargin {
+    margin: 3px;
+}
