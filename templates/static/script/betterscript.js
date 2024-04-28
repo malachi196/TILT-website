@@ -1,0 +1,1 @@
+window.location.href = "E:programming projects/TILT/templates/error-pages/404.html"
