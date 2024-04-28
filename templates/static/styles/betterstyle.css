@@ -35,8 +35,8 @@ p {
 }
 .good-size {
     max-width: 707.781px !important;
-    max-height: 217.781px !important;
-    min-height: min-content !important;
+    max-height: 217.781px;
+    min-height: min-content;
     min-width: min-content !important;
 } 
 .bigger-good-title {
@@ -48,4 +48,7 @@ p {
     padding: 3px;
     background-color: lightblue;
     color: black !important;
+}
+.any-height {
+    max-height: fit-content !important;
 }
