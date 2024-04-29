@@ -1,9 +1,7 @@
-let uname;
-let qu;
+var uname = document.getElementById("uname").value;
+var qu = document.getElementById("qu").value;
 
 function query_data() {
-    uname = document.getElementById("uname").value;
-    qu = document.getElementById("qu").value;
     if (uname.trim() === "" || qu.trim() === "") 
     {
         alert("form data is mandatory")
@@ -19,4 +17,8 @@ function append_data() {
     document.getElementById("editable-p2").innerHTML = "Name: " + uname + "<br>";
     document.getElementById("editable-p3").innerHTML = "Question/comment: " + "<br>";
     document.getElementById("editable-p4").innerHTML = qu;
+}
+
+function get_donation() {
+    
 }

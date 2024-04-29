@@ -7,9 +7,32 @@
     <body>
         <div class="better-box center-format">
             <h3 class="blue-text center-format bigger-good-title">Want to donate? You now can!</h3>
-            <p class="paragraph-by-autospace">To make donations, either fill out this form,
+            <p class="paragraph-by-autospace">To make donations, either click the button below,,
                     or you can donate to <a href="https://www.techforall.org/">techforall.org</a>, 
                     which is another organization that maintains a project similar to ours.
             </p>
+            <div class="center-format">
+                <div id="donate-button-container center-format bigger-button">
+                    <div id="donate-button"></div>
+                        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+                        <script>
+                            PayPal.Donation.Button({
+                            env:'sandbox',
+                            hosted_button_id:'HUWYZ2S3QP5N6',
+                            image: {
+                            src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
+                            alt:'Donate with PayPal button',
+                            title:'PayPal - The safer, easier way to pay online!',
+                            }
+                            }).render('#donate-button');
+                        </script>
+                    </div>
+                </div>
+                <div>
+                    <div class="center-format">
+                        <p class="smaller-link-font"><a href="https://malachi196.github.io/TILT-website/templates/index.html">Go to home page</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
