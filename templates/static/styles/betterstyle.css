@@ -55,3 +55,7 @@ p {
 .smallmargin {
     margin: 3px;
 }
+
+.nomargin {
+    margin: 0px !important
+}
